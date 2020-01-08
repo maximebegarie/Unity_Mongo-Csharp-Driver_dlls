@@ -1,7 +1,7 @@
 # Unity_Mongo-Csharp-Driver_dlls
 
 
-DLL files needed in Unity's Plugins folder for mongo-csharp-driver 2.10 to work
+DLL files needed in Unity's Plugins folder for mongo-csharp-driver 2.10 to work with Unity.
 
 
 Extracted after the installation of NuGet package https://www.nuget.org/packages/MongoDB.Driver/2.10.0
