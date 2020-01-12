@@ -86,3 +86,7 @@ Replace "user => user.ActiveConnection, 0" with the Attribute you want to change
  // on all users that have a ActiveConnection different from 0, set ActiveConnection to 0
  userCollection.UpdateMany(user => user.ActiveConnection != 0, Builders<Model_User>.Update.Set(user => user.ActiveConnection, 0));
 ```
+
+Based on :
+
+[Julian23517/Unity-mongo-csharp-driver-dlls](https://github.com/Julian23517/Unity-mongo-csharp-driver-dlls)
